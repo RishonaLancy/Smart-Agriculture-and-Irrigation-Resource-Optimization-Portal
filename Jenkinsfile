@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://RishonaLancy/github.com'
+                git branch: 'main', url: 'https://github.com/RishonaLancy/Smart-Agriculture-and-Irrigation-Resource-Optimization-Portal.git'
             }
         }
 
