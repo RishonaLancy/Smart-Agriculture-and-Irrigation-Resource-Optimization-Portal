@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: <YOUR_DOCKERHUB_USERNAME>/smart-agri-portal:latest
+        image: rishonalancy/smart-agri-portal
         ports:
         - containerPort: 80
 ---
